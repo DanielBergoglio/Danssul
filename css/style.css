@@ -1,0 +1,994 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*! --- RESET ---*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*! ----- HEADER -----*/
+
+header {
+    background-color: rgb(25, 2, 155);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 45px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+    font-size: 22px;
+    margin: 15px;
+}
+
+.navbar-nav .nav-item a{
+    color: white;
+    font-size: 22px;
+    margin: 15px;
+}
+
+/*! ----- MAIN ----*/
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 104px);
+    background-image: url(https://authassets.cnhindustrial.com/nhag/lar/es-ar/PublishingImages/homepage/slider/2024/Expo%20Rural%202024%20NHAG_Herobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.hero h2 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.destacados h3 {
+    margin: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.destacados-info {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.destacados .expo {
+    border: 2px solid gray;
+    width: 500px;
+}
+
+.destacados .destacados-info .expo img {
+    background-color: rgb(4, 4, 97);
+    width: 100%;
+    height: 234px;
+}
+
+.destacados .whatsapp {
+    border: 2px solid gray;
+    width: 500px;
+}
+
+.destacados .destacados-info .whatsapp img {
+    width: 100%;
+}
+
+.destacados .destacados-info h4 {
+    margin: 5px;
+    text-align: center;
+}
+
+.destacados div a {
+    text-decoration: none;
+    color: black;
+}
+
+/*! --- FOOTER ---*/
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+.footer-pag {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.footer-pag .nombre-empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+
+.footer-pag h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-pag .sobre-nosotros p {
+    color: rgb(238, 230, 230);
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 80%;
+}
+
+.footer-pag .red-social div img {
+    margin-right: 15px;
+}
+
+
+/*      --------------------------- CONTACTO -----------------------         */
+
+
+/*! ----- HEADER -----*/
+
+.contacto {
+    background-color: #237386bd;
+    width: 100%;
+    height: 100px;
+}
+
+.contacto h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    margin: 0px 5px 10px 10px;
+    color: whitesmoke;
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.formulario h3 {
+    font-family: "Montserrat", sans-serif;
+    width: 30%;
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+form {
+    width: 500px;
+    height: 300px;
+    padding: 12px;
+    margin: 20px;
+}
+
+.div-form {
+    width: 100%;
+}
+
+.inputs {
+    width: 45%;
+    height: 45px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.input-name {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 85px;
+    margin: 0px 0px 4px 0px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.button-enviar {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+/*! --- FOOTER ---*/
+
+
+/*              ----------------- FINANCIACION -----------------             */
+
+/*!   ---  HEADER!  ---   */
+
+.financiacion {
+    background-color: #237386bd;
+    width: 100%;
+    height: 130px;
+}
+
+.financiacion h2 {
+    font-size: 45px;
+    padding: 10px 5px 10px 20px;
+    color: whitesmoke;
+}
+
+/*!   ---  MAIN  ---    */
+
+.p-financiacion {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 200px;
+    font-size: 25px;
+}
+
+.p-financiacion h3 {
+    padding: 20px 0px 20px 20px;
+}
+
+.p-financiacion p {
+    font-size: 20px;
+    padding: 10px 0px 20px 20px;
+}
+
+.p-financiacion div ul li {
+    font-size: 18px;
+    margin: 10px 0px 10px 30px;
+}
+
+.banks {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px
+}
+
+
+/*!  ---  FOOTER ---    */
+
+
+/*         ---------------      PRODUCTO      -------------     */
+
+.producto {
+    background-color: #237386bd;
+    width: 100%;
+    height: 130px;
+}
+
+.producto h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    padding: 10px 5px 10px 20px;
+    color: whitesmoke;
+}
+
+
+.nombre-producto{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.nombre-producto h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.nombre-producto div{
+    width: 40%;
+}
+
+.nombre-producto p{
+    padding-bottom: 20px;
+}
+
+
+/*          ----------------       RESPUESTOS     ------------      */
+
+/*!    HEADER     */
+.respuestos {
+    background-color: #237386bd;
+    width: 100%;
+    height: 120px;
+}
+
+.respuestos h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    padding: 10px 5px 10px 20px;
+    color: whitesmoke;
+}
+
+/*!    MAIN      */
+
+.search-repuestos h3 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.search-repuestos div input {
+    font-size: 25px;
+    width: 600px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.complementario {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.compra-complementarios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0px 5px 5px;
+
+}
+
+.compra-complementarios div {
+    width: 450px;
+    height: 350px;
+    border: 2px solid gray;
+    text-align: center;
+    margin: 5px;
+}
+
+.compra-complementarios div h3 {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.compra-complementarios div img {
+    width: 100%;
+}
+
+.compra-complementarios div a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+
+/*!  --------- !MEDIA QUARE! --------------*/
+@media screen and (max-width:1238px) {
+
+    /* -- REPUESTOS -- */
+    .compra-complementarios {
+        height: 400px;
+    }
+
+    .respuestos h2 {
+        font-size: 45px;
+    }
+
+    .compra-complementarios div {
+        width: 350px;
+        height: 270px;
+    }
+
+    /* -- Financiacion -- */
+    .banks {
+        padding: 20px 5px 20px 20px;
+    }
+}
+
+@media screen and (max-width:1177px) {
+
+    /* -- Repuestos -- */
+    .respuestos h2 {
+        font-size: 38px;
+    }
+
+    .compra-complementarios {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /* -- repuestos -- */
+    .banks {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:1110px) {
+    .compra-complementarios {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 1300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .compra-complementarios div {
+        width: 500px;
+        height: 380px;
+    }
+
+}
+
+@media screen and (max-width:1080px) {
+
+    /* -- INDEX -- */
+    .destacados .expo {
+        margin-bottom: 10px;
+    }
+
+    .destacados-info {
+        flex-direction: column;
+    }
+
+    /* -- INDEX -- */
+
+    /* -- FINANCIACION -- */
+    .banks {
+        height: 600px;
+        flex-direction: column;
+    }
+
+    .banks img {
+        padding: 20px;
+    }
+    /* -- FINANCIACION -- */
+
+    /* -- Productos -- */
+    .nombre-producto h3{
+        font-size: 23px;
+    }
+    .nombre-producto div{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:966px) {
+
+
+    /* -- PRODUCTO -- */
+    .producto {
+        height: 100px;
+    }
+
+    .producto h2 {
+        font-size: 40px;
+    }
+
+    .nombre-producto{
+        height: 1000px;
+        flex-direction: column;
+    }
+
+    .nombre-producto div{
+        padding: 40px;
+        font-size: 17px;
+        width: 100%;
+    }
+    /* -- PRODUCTO -- */
+    /* -- Contacto -- */
+    .contacto {
+        height: 100px;
+    }
+
+    .contacto h2 {
+        font-size: 40px;
+    }
+
+    .formulario h3 {
+        font-size: 24px;
+
+    }
+
+    .formulario form {
+        width: 35%;
+    }
+
+}
+
+@media screen and (max-width:763px) {
+    header {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    .hero h2 {
+        font-size: 35px;
+    }
+
+    /* -- PRODUCTO -- */
+    .producto {
+        height: 90px;
+    }
+
+    .producto h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    /* -- PRODUCTO -- */
+
+    /* -- FINANCIACION -- */
+    .financiacion {
+        height: 90px;
+    }
+
+    .financiacion h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .p-financiacion {
+        height: 250px;
+        font-size: 20px;
+    }
+
+    .p-financiacion p {
+        font-size: 18px;
+    }
+
+    /* --FINANCIACION -- */
+    /* -- REPUESTOS -- */
+    .respuestos {
+        height: 90px;
+    }
+
+    .respuestos h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .search-repuestos h3 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .complementario h2 {
+        font-size: 28px;
+    }
+
+    .complementario p {
+        font-size: 18px;
+    }
+
+    .search-repuestos div input {
+        font-size: 20px;
+        height: 50px;
+    }
+
+    .compra-complementarios div {
+        width: 500px;
+        height: 370px;
+    }
+
+    /* - Repuestos -*/
+    /* -- Contacto --*/
+    .contacto {
+        height: 90px;
+    }
+
+    .contacto h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .formulario {
+        flex-direction: column;
+    }
+
+    .formulario h3 {
+        width: 80%;
+    }
+
+    .formulario form {
+        width: 60%;
+    }
+
+    /* - Contacto - */
+    /* -- Footer -- */
+    .footer-pag .nombre-empresa {
+        font-size: 30px;
+    }
+
+    .footer-pag h3 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .footer-pag .sobre-nosotros p {
+        margin-bottom: 5px;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .footer-pag .red-social div img {
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+
+    /* -- PRODUCTO -- */
+
+    /* -- repuestos -- */
+    .search-repuestos h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .search-repuestos div input {
+        width: 470px;
+    }
+
+    .search-repuestos div img {
+        display: none;
+    }
+
+    .complementario h2 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .compra-complementarios {
+        height: 1100px;
+    }
+
+    .compra-complementarios div {
+        width: 450px;
+        height: 300px;
+    }
+
+    .compra-complementarios div h3 {
+        margin-bottom: 17px;
+    }
+
+    /* - Repuestos - */
+    /* -- Contacto -- */
+    .formulario h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:631px) {
+
+    /* -- index -- */
+    .destacados h3 {
+        font-size: 20px;
+    }
+
+    .destacados .expo {
+        border: 2px solid gray;
+        width: 400px;
+    }
+
+    .destacados .destacados-info .expo img {
+        background-color: rgb(4, 4, 97);
+        width: 100%;
+        height: 180px;
+    }
+
+    .destacados .whatsapp {
+        border: 2px solid gray;
+        width: 400px;
+    }
+
+    .nombre-producto img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:574px) {
+    header {
+        position: relative;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    /* -- INDEX -- */
+    .hero h2 {
+        font-size: 35px;
+    }
+
+    .destacados h3 {
+        margin: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .destacados-info {
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .destacados .expo {
+        border: 2px solid gray;
+        width: 400px;
+    }
+
+    .destacados .destacados-info .expo img {
+        background-color: rgb(4, 4, 97);
+        width: 100%;
+        height: 220px;
+    }
+
+    .destacados .whatsapp {
+        border: 2px solid gray;
+        width: 400px;
+    }
+
+    .destacados .destacados-info .whatsapp img {
+        width: 100%;
+    }
+
+    .destacados .destacados-info h4 {
+        margin: 5px;
+        text-align: center;
+    }
+
+    /* -- INDEX -- */
+
+    /* -- PRODUCTOS -- */
+    .producto {
+        height: 70px;
+    }
+
+    .producto h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .nombre-producto div{
+        font-size: 16px;
+    }
+    /* -- PRODUCTOS -- */
+    /* -- FINANCIACION -- */
+    .financiacion {
+        height: 70px;
+    }
+
+    .financiacion h2 {
+        font-size: 32px;
+    }
+
+    .footer-pag {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+    }
+
+    /* - Financiacion - */
+    /* --Contacto -- */
+    .contacto {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:492px) {
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .especificacion-producto div {
+        height: 450px
+    }
+
+    /* --FINANCIACION -- */
+    .p-financiacion {
+        font-size: 18px;
+    }
+
+    .p-financiacion p {
+        font-size: 16;
+    }
+
+    /* - Financiacion - */
+
+    /* -- Repuestos -- */
+    .respuestos h2 {
+        font-size: 30px;
+    }
+
+    .search-repuestos h3 {
+        font-size: 25px;
+    }
+
+    .search-repuestos div input {
+        width: 400px;
+        font-size: 18px;
+    }
+
+    .complementario h2 {
+        font-size: 23px;
+    }
+
+    .complementario p {
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    .compra-complementarios {
+        height: 950px;
+    }
+
+    .compra-complementarios div {
+        width: 350px;
+        height: 250px;
+    }
+
+    /* - Repuestos - */
+
+    /* -- Contacto -- */
+    .formulario {
+        background-color: white;
+        width: 100%;
+        height: 500px;
+    }
+
+    .inputs {
+        width: 100%;
+        height: 35px;
+    }
+
+    .button-enviar {
+        width: 80px;
+        height: 25px;
+    }
+
+    .footer-pag h3 {
+        padding-bottom: 10px;
+    }
+
+    .footer-pag p {
+        padding: 0px 10px 5px 10px;
+    }
+}
+
+@media screen and (max-width:453px) {
+
+    /* -- INDEX -- */
+    .destacados .expo {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .destacados .destacados-info .expo img {
+        background-color: rgb(4, 4, 97);
+        width: 100%;
+        height: 170px;
+    }
+
+    .destacados .whatsapp {
+        border: 2px solid gray;
+        width: 350px;
+    }
+
+    /* -- INDEX -- */
+
+    /* PRODUCTOS  */
+    .producto h2 {
+        font-size: 35px;
+    }
+
+    .nombre-producto div{
+        font-size: 15px;
+    }
+
+    /* PRODUCTOS  */
+
+    /* --Financiacion -- */
+    .p-financiacion {
+        height: 230px;
+    }
+
+    .p-financiacion h3 {
+        padding: 10px 5px 10px 10px;
+    }
+
+    .p-financiacion p {
+        font-size: 20px;
+        padding: 10px 5px 10px 10px;
+    }
+
+    .p-financiacion div ul li {
+        font-size: 18px;
+        margin: 10px 5px 10px 25px;
+    }
+
+    /* -- Financiacion -- */
+
+    /* -- Repuestos -- */
+    .respuestos {
+        height: 70px;
+    }
+
+    .respuestos h2 {
+        font-size: 25px;
+    }
+
+    .search-repuestos div input {
+        width: 400px;
+        height: 45px;
+    }
+
+    .compra-complementarios div {
+        height: 250px;
+        font-size: 15px;
+    }
+
+    .footer-pag .nombre-empresa {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:415px) {
+
+    .especificacion-producto div {
+        height: 550px;
+    }
+
+    /* -- repuestos -- */
+    .search-repuestos div input {
+        width: 320px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .compra-complementarios {
+        height: 820px;
+    }
+
+    .compra-complementarios div {
+        width: 280px;
+        height: 240px
+    }
+}
