@@ -63,12 +63,12 @@ header h1 {
     align-items: start;
 }
 
-.hero h2 {
+.hero h1 {
     font-size: 40px;
     padding: 10px;
 }
 
-.destacados h3 {
+.destacados h2 {
     margin: 20px;
     font-size: 22px;
     text-align: center;
@@ -103,7 +103,7 @@ header h1 {
     width: 100%;
 }
 
-.destacados .destacados-info h4 {
+.destacados .destacados-info h3 {
     margin: 5px;
     text-align: center;
 }
@@ -127,7 +127,7 @@ footer {
     padding: 45px 0px;
 }
 
-.footer-pag .nombre-empresa {
+.footer-pag h3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ footer {
     font-size: 35px;
 }
 
-.footer-pag h3 {
+.footer-pag h4 {
     color: white;
     font-size: 25px;
     margin-bottom: 25px;
@@ -529,18 +529,6 @@ textarea {
 }
 
 @media screen and (max-width:763px) {
-    header {
-        flex-direction: column;
-    }
-
-    header h1 {
-        font-size: 40px;
-    }
-
-    .hero h2 {
-        font-size: 35px;
-    }
-
     /* -- PRODUCTO -- */
     .producto {
         height: 90px;
@@ -630,11 +618,11 @@ textarea {
 
     /* - Contacto - */
     /* -- Footer -- */
-    .footer-pag .nombre-empresa {
+    .footer-pag h3 {
         font-size: 30px;
     }
 
-    .footer-pag h3 {
+    .footer-pag h4 {
         font-size: 20px;
         margin-bottom: 25px;
     }
@@ -697,8 +685,7 @@ textarea {
 
 @media screen and (max-width:631px) {
 
-    /* -- index -- */
-    .destacados h3 {
+    .destacados h2 {
         font-size: 20px;
     }
 
@@ -724,20 +711,12 @@ textarea {
 }
 
 @media screen and (max-width:574px) {
-    header {
-        position: relative;
-    }
-
-    header nav ul {
-        flex-direction: column;
-    }
-
     /* -- INDEX -- */
-    .hero h2 {
+    .hero h1 {
         font-size: 35px;
     }
 
-    .destacados h3 {
+    .destacados h2 {
         margin: 20px;
         font-size: 20px;
         text-align: center;
@@ -760,8 +739,10 @@ textarea {
         height: 130px;
     }
 
-    .destacados-info h4{
+    .destacados-info h3{
         font-size: 16px;
+        margin: 5px;
+        text-align: center;
     }
     .destacados .whatsapp {
         border: 2px solid gray;
@@ -771,12 +752,6 @@ textarea {
     .destacados .destacados-info .whatsapp img {
         width: 100%;
     }
-
-    .destacados .destacados-info h4 {
-        margin: 5px;
-        text-align: center;
-    }
-
     /* -- INDEX -- */
 
     /* -- PRODUCTOS -- */
@@ -897,25 +872,6 @@ textarea {
 }
 
 @media screen and (max-width:453px) {
-
-    /* -- INDEX -- */
-    .destacados .expo {
-        width: 350px;
-        margin-bottom: 20px;
-    }
-
-    .destacados .destacados-info .expo img {
-        background-color: rgb(4, 4, 97);
-        width: 100%;
-        height: 170px;
-    }
-
-    .destacados .whatsapp {
-        border: 2px solid gray;
-        width: 350px;
-    }
-
-    /* -- INDEX -- */
 
     /* PRODUCTOS  */
     .producto h2 {
