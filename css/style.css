@@ -164,7 +164,7 @@ footer {
     height: 100px;
 }
 
-.contacto h2 {
+.contacto h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
     margin: 0px 5px 10px 10px;
@@ -180,7 +180,7 @@ footer {
     align-items: center
 }
 
-.formulario h3 {
+.formulario h2 {
     font-family: "Montserrat", sans-serif;
     width: 30%;
     margin: 10px;
@@ -242,7 +242,7 @@ textarea {
     height: 130px;
 }
 
-.financiacion h2 {
+.financiacion h1 {
     font-size: 45px;
     padding: 10px 5px 10px 20px;
     color: whitesmoke;
@@ -257,7 +257,7 @@ textarea {
     font-size: 25px;
 }
 
-.p-financiacion h3 {
+.p-financiacion h2 {
     padding: 20px 0px 20px 20px;
 }
 
@@ -293,7 +293,7 @@ textarea {
     height: 130px;
 }
 
-.producto h2 {
+.producto h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
     padding: 10px 5px 10px 20px;
@@ -309,7 +309,7 @@ textarea {
 }
 
 
-.nombre-producto h3{
+.nombre-producto h2{
     text-align: center;
     font-size: 30px;
     padding: 10px;
@@ -333,7 +333,7 @@ textarea {
     height: 120px;
 }
 
-.respuestos h2 {
+.respuestos h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
     padding: 10px 5px 10px 20px;
@@ -342,7 +342,7 @@ textarea {
 
 /*!    MAIN      */
 
-.search-repuestos h3 {
+.search-repuestos h2 {
     font-size: 30px;
     padding: 10px;
 }
@@ -354,10 +354,14 @@ textarea {
     margin-left: 10px;
 }
 
-.complementario {
+.complementario div {
     font-size: 18px;
     margin-top: 20px;
     margin-left: 10px;
+}
+
+.complementario div p{
+    font-size: 20px;
 }
 
 .compra-complementarios {
@@ -365,7 +369,7 @@ textarea {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px 0px 5px 5px;
+    padding: 20px 0px 30px 5px;
 
 }
 
@@ -378,6 +382,7 @@ textarea {
 }
 
 .compra-complementarios div h3 {
+    font-size: 20px;
     margin-bottom: 20px;
     margin-top: 5px;
 }
@@ -391,6 +396,7 @@ textarea {
     text-decoration: none;
     color: white;
     padding: 8px;
+    font-size: 15px;
 }
 
 
@@ -402,7 +408,7 @@ textarea {
         height: 400px;
     }
 
-    .respuestos h2 {
+    .respuestos h1 {
         font-size: 45px;
     }
 
@@ -420,7 +426,7 @@ textarea {
 @media screen and (max-width:1177px) {
 
     /* -- Repuestos -- */
-    .respuestos h2 {
+    .respuestos h1 {
         font-size: 38px;
     }
 
@@ -476,7 +482,7 @@ textarea {
     /* -- FINANCIACION -- */
 
     /* -- Productos -- */
-    .nombre-producto h3{
+    .nombre-producto h2{
         font-size: 23px;
     }
     .nombre-producto div{
@@ -493,7 +499,7 @@ textarea {
         height: 100px;
     }
 
-    .producto h2 {
+    .producto h1 {
         font-size: 40px;
     }
 
@@ -513,11 +519,11 @@ textarea {
         height: 100px;
     }
 
-    .contacto h2 {
+    .contacto h1 {
         font-size: 40px;
     }
 
-    .formulario h3 {
+    .formulario h2 {
         font-size: 24px;
 
     }
@@ -534,7 +540,7 @@ textarea {
         height: 90px;
     }
 
-    .producto h2 {
+    .producto h1 {
         font-size: 35px;
         text-align: center;
     }
@@ -545,7 +551,7 @@ textarea {
         height: 90px;
     }
 
-    .financiacion h2 {
+    .financiacion h1 {
         font-size: 35px;
         text-align: center;
     }
@@ -565,21 +571,21 @@ textarea {
         height: 90px;
     }
 
-    .respuestos h2 {
+    .respuestos h1 {
         font-size: 35px;
         text-align: center;
     }
 
-    .search-repuestos h3 {
+    .search-repuestos h2 {
         font-size: 28px;
         padding-bottom: 10px;
     }
 
-    .complementario h2 {
+    .complementario div {
         font-size: 28px;
     }
 
-    .complementario p {
+    .complementario div p {
         font-size: 18px;
     }
 
@@ -599,7 +605,7 @@ textarea {
         height: 90px;
     }
 
-    .contacto h2 {
+    .contacto h1 {
         font-size: 35px;
         text-align: center;
     }
@@ -608,7 +614,7 @@ textarea {
         flex-direction: column;
     }
 
-    .formulario h3 {
+    .formulario h2 {
         width: 80%;
     }
 
@@ -642,10 +648,8 @@ textarea {
 
 @media screen and (max-width: 719px) {
 
-    /* -- PRODUCTO -- */
-
     /* -- repuestos -- */
-    .search-repuestos h3 {
+    .search-repuestos h2 {
         font-size: 30px;
         text-align: center;
     }
@@ -658,7 +662,7 @@ textarea {
         display: none;
     }
 
-    .complementario h2 {
+    .complementario div {
         font-size: 27px;
         text-align: center;
     }
@@ -678,7 +682,7 @@ textarea {
 
     /* - Repuestos - */
     /* -- Contacto -- */
-    .formulario h3 {
+    .formulario h2 {
         font-size: 20px;
     }
 }
@@ -759,7 +763,7 @@ textarea {
         height: 70px;
     }
 
-    .producto h2 {
+    .producto h1 {
         font-size: 35px;
         text-align: center;
     }
@@ -773,7 +777,7 @@ textarea {
         height: 70px;
     }
 
-    .financiacion h2 {
+    .financiacion h1 {
         font-size: 32px;
     }
 
@@ -801,7 +805,7 @@ textarea {
     }
 
     /* --FINANCIACION -- */
-    .p-financiacion {
+    .p-financiacion h2{
         font-size: 18px;
     }
 
@@ -812,11 +816,11 @@ textarea {
     /* - Financiacion - */
 
     /* -- Repuestos -- */
-    .respuestos h2 {
+    .respuestos h1 {
         font-size: 30px;
     }
 
-    .search-repuestos h3 {
+    .search-repuestos h2 {
         font-size: 25px;
     }
 
@@ -825,7 +829,7 @@ textarea {
         font-size: 18px;
     }
 
-    .complementario h2 {
+    .complementario div {
         font-size: 23px;
     }
 
@@ -874,7 +878,7 @@ textarea {
 @media screen and (max-width:453px) {
 
     /* PRODUCTOS  */
-    .producto h2 {
+    .producto h1 {
         font-size: 35px;
     }
 
@@ -889,7 +893,7 @@ textarea {
         height: 230px;
     }
 
-    .p-financiacion h3 {
+    .p-financiacion h2 {
         padding: 10px 5px 10px 10px;
     }
 
@@ -910,7 +914,7 @@ textarea {
         height: 70px;
     }
 
-    .respuestos h2 {
+    .respuestos h1 {
         font-size: 25px;
     }
 
