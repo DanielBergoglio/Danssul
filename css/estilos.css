@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*! --- RESET ---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+header {
+  background-color: #19029b;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.navbar-brand {
+  color: white;
+  font-size: 45px; }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: white;
+  font-size: 22px;
+  margin: 15px; }
+
+.navbar-nav .nav-item a {
+  color: white;
+  font-size: 22px;
+  margin: 15px; }
+
+.footer-pag {
+  width: 100%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px; }
+  .footer-pag h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px; }
+  .footer-pag .sobre-nosotros h4 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center; }
+  .footer-pag .sobre-nosotros p {
+    color: #eee6e6;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 80%; }
+  .footer-pag .red-social h4 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px; }
+  .footer-pag .red-social div {
+    text-align: center; }
+    .footer-pag .red-social div img {
+      margin-right: 15px; }
+
+.contacto {
+  background-color: #237386bd;
+  width: 100%;
+  height: 100px; }
+  .contacto h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    margin-left: 20px;
+    color: whitesmoke; }
+
+.formulario {
+  background-color: white;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .formulario h2 {
+    font-family: "Montserrat", sans-serif;
+    width: 30%;
+    margin: 10px;
+    font-size: 25px;
+    color: black; }
+  .formulario form {
+    width: 500px;
+    height: 300px;
+    padding: 12px;
+    margin: 20px; }
+    .formulario form .div-form {
+      width: 100%; }
+      .formulario form .div-form .inputs-name {
+        width: 92%;
+        height: 45px;
+        margin: 2px;
+        border: 1px solid black;
+        border-radius: 4px; }
+      .formulario form .div-form .inputs {
+        width: 45%;
+        height: 45px;
+        margin: 2px;
+        border: 1px solid black;
+        border-radius: 4px; }
+  .formulario textarea {
+    width: 100%;
+    height: 85px;
+    margin: 0px 0px 4px 0px;
+    border: 1px solid black;
+    border-radius: 4px; }
+  .formulario .button-enviar {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 0 auto; }
+
+.financiacion {
+  background-color: #237386bd;
+  width: 100%;
+  height: 130px; }
+  .financiacion h1 {
+    font-size: 45px;
+    padding: 10px 5px 10px 20px;
+    color: whitesmoke; }
+
+.p-financiacion {
+  margin: 20px; }
+  .p-financiacion h2 {
+    margin-top: 20px; }
+  .p-financiacion p {
+    font-size: 25px;
+    margin-top: 5px; }
+  .p-financiacion ul li {
+    font-size: 20px;
+    margin: 10px 0px 20px 0px; }
+  .p-financiacion div {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+
+.hero {
+  width: 100%;
+  height: calc(100vh - 104px);
+  background-image: url(https://authassets.cnhindustrial.com/nhag/lar/es-ar/PublishingImages/homepage/slider/2024/Expo%20Rural%202024%20NHAG_Herobanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: start; }
+  .hero h1 {
+    font-size: 40px;
+    padding: 10px; }
+
+.destacados h2 {
+  margin: 20px;
+  font-size: 22px;
+  text-align: center; }
+
+.destacados h3 {
+  font-size: 20px;
+  margin: 5px;
+  text-align: center; }
+
+.destacados div {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.destacados .expo {
+  border: 2px solid gray;
+  width: 400px; }
+  .destacados .expo a {
+    text-decoration: none;
+    color: black; }
+    .destacados .expo a img {
+      background-color: #040461;
+      width: 100%;
+      height: 194px; }
+
+.destacados .whatsapp {
+  border: 2px solid gray;
+  width: 400px; }
+  .destacados .whatsapp a {
+    text-decoration: none;
+    color: black; }
+    .destacados .whatsapp a img {
+      border: 2px solid gray;
+      width: 400px; }
+
+.producto {
+  background-color: #237386bd;
+  width: 100%;
+  height: 130px; }
+  .producto h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    padding: 10px 5px 10px 20px;
+    color: whitesmoke; }
+
+.nombre-producto {
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .nombre-producto div {
+    width: 40%; }
+    .nombre-producto div h2 {
+      text-align: center;
+      font-size: 30px;
+      padding: 10px; }
+    .nombre-producto div p {
+      padding-bottom: 20px; }
+
+.respuestos {
+  background-color: #237386bd;
+  width: 100%;
+  height: 120px; }
+  .respuestos h1 {
+    font-size: 50px;
+    padding: 10px 5px 10px 20px;
+    color: whitesmoke; }
+
+.search-repuestos {
+  margin: 15px; }
+  .search-repuestos h2 {
+    font-size: 30px;
+    padding: 10px; }
+  .search-repuestos div input {
+    font-size: 25px;
+    width: 600px;
+    height: 60px;
+    margin-left: 10px; }
+
+.complementario {
+  margin: 20px;
+  font-size: 18px; }
+  .complementario p {
+    font-size: 20px; }
+  .complementario .compra-complementarios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px 30px 5px; }
+    .complementario .compra-complementarios div {
+      width: 450px;
+      height: 350px;
+      border: 2px solid gray;
+      text-align: center; }
+      .complementario .compra-complementarios div img {
+        width: 100%; }
+      .complementario .compra-complementarios div h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 5px; }
+      .complementario .compra-complementarios div a {
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        font-size: 15px; }

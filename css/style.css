@@ -74,7 +74,7 @@ header h1 {
     text-align: center;
 }
 
-.destacados-info {
+.destacados div {
     padding-bottom: 40px;
     display: flex;
     justify-content: space-evenly;
@@ -88,7 +88,7 @@ header h1 {
     width: 400px;
 }
 
-.destacados .destacados-info .expo img {
+.destacados .expo img {
     background-color: rgb(4, 4, 97);
     width: 100%;
     height: 160px;
@@ -99,11 +99,11 @@ header h1 {
     width: 400px;
 }
 
-.destacados .destacados-info .whatsapp img {
+.destacados .whatsapp img {
     width: 100%;
 }
 
-.destacados .destacados-info h3 {
+.destacados h3 {
     margin: 5px;
     text-align: center;
 }
@@ -115,12 +115,9 @@ header h1 {
 
 /*! --- FOOTER ---*/
 
-footer {
+.footer-pag {
     width: 100%;
     background-color: black;
-}
-
-.footer-pag {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
@@ -188,18 +185,18 @@ footer {
     color: black;
 }
 
-form {
+.formulario form {
     width: 500px;
     height: 300px;
     padding: 12px;
     margin: 20px;
 }
 
-.div-form {
+.formulario .div-form {
     width: 100%;
 }
 
-.inputs {
+.formulario .inputs {
     width: 45%;
     height: 45px;
     margin: 2px;
@@ -207,11 +204,11 @@ form {
     border-radius: 4px;
 }
 
-.input-name {
+.formulario .input-name {
     width: 100%;
 }
 
-textarea {
+.formulario form textarea {
     width: 100%;
     height: 85px;
     margin: 0px 0px 4px 0px;
@@ -219,7 +216,7 @@ textarea {
     border-radius: 4px;
 }
 
-.button-enviar {
+.formulario .button-enviar {
     width: 100px;
     height: 30px;
     background-color: blue;
@@ -250,35 +247,29 @@ textarea {
 
 /*!   ---  MAIN  ---    */
 
-.p-financiacion {
-    background-color: whitesmoke;
-    width: 100%;
-    height: 200px;
-    font-size: 25px;
-}
-
 .p-financiacion h2 {
     padding: 20px 0px 20px 20px;
 }
 
 .p-financiacion p {
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px 0px 20px 20px;
 }
 
-.p-financiacion div ul li {
-    font-size: 18px;
-    margin: 10px 0px 10px 30px;
+
+.p-financiacion ul li {
+    font-size: 20px;
+    margin: 10px 0px 20px 15px;
 }
 
-.banks {
+.p-financiacion div {
     background-color: white;
     width: 100%;
     height: 250px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 5px
+    padding: 20px
 }
 
 
@@ -341,7 +332,9 @@ textarea {
 }
 
 /*!    MAIN      */
-
+.search-repuestos{
+    margin: 15px;
+}
 .search-repuestos h2 {
     font-size: 30px;
     padding: 10px;
@@ -353,18 +346,17 @@ textarea {
     height: 60px;
     margin-left: 10px;
 }
-
-.complementario div {
+/*  ----  */
+.complementario{
+    margin: 20px;
     font-size: 18px;
-    margin-top: 20px;
-    margin-left: 10px;
 }
 
-.complementario div p{
+.complementario p{
     font-size: 20px;
 }
 
-.compra-complementarios {
+.complementario .compra-complementarios {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -373,25 +365,24 @@ textarea {
 
 }
 
-.compra-complementarios div {
+.complementario .compra-complementarios div {
     width: 450px;
     height: 350px;
     border: 2px solid gray;
     text-align: center;
-    margin: 5px;
 }
 
-.compra-complementarios div h3 {
+.complementario .compra-complementarios div h3 {
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 5px;
 }
 
-.compra-complementarios div img {
+.complementario .compra-complementarios div img {
     width: 100%;
 }
 
-.compra-complementarios div a {
+.complementario .compra-complementarios div a {
     background-color: black;
     text-decoration: none;
     color: white;

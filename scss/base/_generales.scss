@@ -13,3 +13,87 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
+header {
+    background-color: rgb(25, 2, 155);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 45px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: white;
+    font-size: 22px;
+    margin: 15px;
+}
+
+.navbar-nav .nav-item a {
+    color: white;
+    font-size: 22px;
+    margin: 15px;
+}
+
+// FOOTER--
+
+.footer-pag {
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 35px;
+
+    }
+
+    .sobre-nosotros {
+
+        h4 {
+            color: white;
+            font-size: 25px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        p {
+            color: rgb(238, 230, 230);
+            margin-bottom: 10px;
+            font-size: 20px;
+            width: 80%;
+        }
+    }
+
+    .red-social {
+
+        h4 {
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            margin-bottom: 25px;
+        }
+
+        div {
+            text-align: center;
+            a {}
+
+            img {
+                margin-right: 15px;
+            }
+        }
+    }
+}
