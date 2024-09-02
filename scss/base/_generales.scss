@@ -10,7 +10,10 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif !important;
+}
+title {
+    font-family: "Montserrat", sans-serif !important;
 }
 
 
@@ -57,7 +60,7 @@ header {
         justify-content: center;
         align-items: center;
         color: white;
-        font-size: 35px;
+        font-size: 50px;
 
     }
 

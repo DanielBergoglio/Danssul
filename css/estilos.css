@@ -7,7 +7,10 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif !important; }
+
+title {
+  font-family: "Montserrat", sans-serif !important; }
 
 header {
   background-color: #19029b;
@@ -45,7 +48,7 @@ header {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 35px; }
+    font-size: 50px; }
   .footer-pag .sobre-nosotros h4 {
     color: white;
     font-size: 25px;
@@ -66,14 +69,169 @@ header {
     .footer-pag .red-social div img {
       margin-right: 15px; }
 
+.hero {
+  width: 100%;
+  height: calc(100vh - 104px);
+  background-image: url(https://authassets.cnhindustrial.com/nhag/lar/es-ar/PublishingImages/homepage/slider/2024/Expo%20Rural%202024%20NHAG_Herobanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: start; }
+  .hero h1 {
+    font-size: 40px;
+    padding: 10px; }
+
+.destacados h2 {
+  margin: 20px;
+  font-size: 22px;
+  text-align: center; }
+
+.destacados div {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.destacados .expo {
+  border: 2px solid gray;
+  width: 400px; }
+  .destacados .expo a {
+    text-decoration: none;
+    color: black; }
+    .destacados .expo a img {
+      background-color: #040461;
+      width: 100%;
+      height: 192px; }
+    .destacados .expo a h3 {
+      font-size: 20px;
+      margin: 5px;
+      text-align: center; }
+
+.destacados .whatsapp {
+  border: 2px solid gray;
+  width: 400px; }
+  .destacados .whatsapp a {
+    text-decoration: none;
+    color: black; }
+    .destacados .whatsapp a img {
+      border: 2px solid gray;
+      width: 100%; }
+    .destacados .whatsapp a h3 {
+      font-size: 20px;
+      margin: 5px;
+      text-align: center; }
+
+.producto {
+  background-color: #237386bd;
+  width: 100%;
+  height: 130px; }
+  .producto h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    padding: 20px;
+    color: whitesmoke; }
+
+.nombre-producto {
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .nombre-producto div {
+    width: 40%; }
+    .nombre-producto div h2 {
+      text-align: center;
+      font-size: 30px; }
+
+.financiacion {
+  background-color: #237386bd;
+  width: 100%;
+  height: 130px; }
+  .financiacion h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    padding: 20px;
+    color: whitesmoke; }
+
+.p-financiacion {
+  margin: 20px; }
+  .p-financiacion h2 {
+    margin-top: 20px; }
+  .p-financiacion p {
+    font-size: 25px;
+    margin-top: 5px; }
+  .p-financiacion ul li {
+    font-size: 20px;
+    margin: 10px 0px 20px 0px; }
+  .p-financiacion div {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+
+.repuestos {
+  background-color: #237386bd;
+  width: 100%;
+  height: 130px; }
+  .repuestos h1 {
+    font-size: 45px;
+    padding: 20px;
+    color: whitesmoke; }
+
+.search-repuestos {
+  margin: 20px; }
+  .search-repuestos h2 {
+    font-size: 30px; }
+  .search-repuestos div input {
+    font-size: 25px;
+    width: 600px;
+    height: 60px; }
+
+.complementario {
+  margin: 20px;
+  font-size: 18px; }
+  .complementario h2 {
+    font-size: 28px; }
+  .complementario p {
+    font-size: 20px; }
+  .complementario .compra-complementarios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px; }
+    .complementario .compra-complementarios div {
+      margin: 5px;
+      width: 400px;
+      height: 350px;
+      border: 2px solid gray;
+      text-align: center; }
+      .complementario .compra-complementarios div img {
+        width: 100%; }
+      .complementario .compra-complementarios div h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 5px; }
+      .complementario .compra-complementarios div a {
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        font-size: 15px; }
+
 .contacto {
   background-color: #237386bd;
   width: 100%;
-  height: 100px; }
+  height: 130px; }
   .contacto h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 50px;
-    margin-left: 20px;
+    font-size: 45px;
+    padding: 20px;
     color: whitesmoke; }
 
 .formulario {
@@ -123,155 +281,210 @@ header {
     border-radius: 4px;
     margin: 0 auto; }
 
-.financiacion {
-  background-color: #237386bd;
-  width: 100%;
-  height: 130px; }
-  .financiacion h1 {
-    font-size: 45px;
-    padding: 10px 5px 10px 20px;
-    color: whitesmoke; }
-
-.p-financiacion {
-  margin: 20px; }
-  .p-financiacion h2 {
-    margin-top: 20px; }
-  .p-financiacion p {
-    font-size: 25px;
-    margin-top: 5px; }
-  .p-financiacion ul li {
-    font-size: 20px;
-    margin: 10px 0px 20px 0px; }
-  .p-financiacion div {
-    background-color: white;
-    width: 100%;
-    height: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; }
-
-.hero {
-  width: 100%;
-  height: calc(100vh - 104px);
-  background-image: url(https://authassets.cnhindustrial.com/nhag/lar/es-ar/PublishingImages/homepage/slider/2024/Expo%20Rural%202024%20NHAG_Herobanner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: start; }
-  .hero h1 {
-    font-size: 40px;
-    padding: 10px; }
-
-.destacados h2 {
-  margin: 20px;
-  font-size: 22px;
-  text-align: center; }
-
-.destacados h3 {
-  font-size: 20px;
-  margin: 5px;
-  text-align: center; }
-
-.destacados div {
-  padding-bottom: 40px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.destacados .expo {
-  border: 2px solid gray;
-  width: 400px; }
-  .destacados .expo a {
-    text-decoration: none;
-    color: black; }
+@media screen and (max-width: 1118px) {
+  .destacados .expo {
+    width: 345px;
+    height: 240px; }
     .destacados .expo a img {
-      background-color: #040461;
+      border: 2px solid gray;
       width: 100%;
-      height: 194px; }
-
-.destacados .whatsapp {
-  border: 2px solid gray;
-  width: 400px; }
-  .destacados .whatsapp a {
-    text-decoration: none;
-    color: black; }
-    .destacados .whatsapp a img {
-      border: 2px solid gray;
-      width: 400px; }
-
-.producto {
-  background-color: #237386bd;
-  width: 100%;
-  height: 130px; }
+      height: 160px; }
+  .destacados .whatsapp {
+    width: 345px;
+    height: 240px; }
   .producto h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 50px;
-    padding: 10px 5px 10px 20px;
-    color: whitesmoke; }
-
-.nombre-producto {
-  height: 500px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center; }
-  .nombre-producto div {
-    width: 40%; }
-    .nombre-producto div h2 {
-      text-align: center;
-      font-size: 30px;
-      padding: 10px; }
-    .nombre-producto div p {
-      padding-bottom: 20px; }
-
-.respuestos {
-  background-color: #237386bd;
-  width: 100%;
-  height: 120px; }
-  .respuestos h1 {
-    font-size: 50px;
-    padding: 10px 5px 10px 20px;
-    color: whitesmoke; }
-
-.search-repuestos {
-  margin: 15px; }
-  .search-repuestos h2 {
-    font-size: 30px;
-    padding: 10px; }
-  .search-repuestos div input {
-    font-size: 25px;
-    width: 600px;
-    height: 60px;
-    margin-left: 10px; }
-
-.complementario {
-  margin: 20px;
-  font-size: 18px; }
-  .complementario p {
+    font-size: 40px; }
+  .nombre-producto img {
+    height: 450px;
+    width: 450px; }
+  .nombre-producto div h2 {
+    font-size: 25px; }
+  .nombre-producto div p {
+    font-size: 15px; }
+  .nombre-producto div ul li {
+    font-size: 15px; }
+  .financiacion h1 {
+    font-size: 40px; }
+  .p-financiacion h2 {
+    font-size: 25px; }
+  .p-financiacion p {
     font-size: 20px; }
-  .complementario .compra-complementarios {
+  .p-financiacion div {
+    height: 600px;
+    flex-direction: column; }
+  .repuestos h1 {
+    font-size: 40px; }
+  .search-repuestos h2 {
+    font-size: 30px; }
+  .search-repuestos div input {
+    font-size: 20px;
+    width: 500px;
+    height: 50px; }
+  .complementario h2 {
+    font-size: 25px; }
+  .contacto h1 {
+    font-size: 40px; }
+  .formulario h2 {
+    font-size: 20px; }
+  .formulario form {
+    width: 400px;
+    height: 250px; } }
+
+@media screen and (max-width: 912px) {
+  .hero h1 {
+    font-size: 35px; }
+  .producto {
+    height: 100px; }
+  .nombre-producto {
+    flex-direction: column;
+    height: 900px; }
+    .nombre-producto img {
+      width: 578px;
+      height: 431px; }
+    .nombre-producto div {
+      width: 100%;
+      display: flex;
+      flex-direction: column; }
+      .nombre-producto div h2 {
+        font-size: 35px; }
+      .nombre-producto div p {
+        font-size: 17px;
+        margin: 25px; }
+      .nombre-producto div ul {
+        margin-left: 10px; }
+        .nombre-producto div ul li {
+          font-size: 17px; }
+  .financiacion {
+    height: 100%; }
+  .repuestos {
+    height: 90%; }
+  .complementario .compra-complementarios div {
+    height: 320px; }
+  .contacto {
+    height: 100%; }
+  .formulario {
+    flex-direction: column; }
+    .formulario h2 {
+      width: 70%;
+      text-align: center;
+      font-size: 22px; }
+  .footer-pag h3 {
+    font-size: 40px; }
+  .footer-pag .sobre-nosotros p {
+    width: 100%;
+    font-size: 18px; }
+  .footer-pag .red-social div a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px; } }
+
+@media screen and (max-width: 762px) {
+  .destacados div {
+    flex-direction: column;
+    margin-top: 20px; }
+  .nombre-producto img {
+    width: 450px;
+    height: 400px; }
+  .nombre-producto div h2 {
+    font-size: 30px; }
+    .nombre-producto div h2 p {
+      font-size: 15px; }
+  .search-repuestos div input {
+    width: 400px;
+    font-size: 18px; }
+  .complementario p {
+    font-size: 19px; }
+  .complementario .compra-complementarios div {
+    width: 380px; }
+  .footer-pag {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px 0px 30px 5px; }
-    .complementario .compra-complementarios div {
-      width: 450px;
-      height: 350px;
-      border: 2px solid gray;
+    flex-direction: column; }
+    .footer-pag .sobre-nosotros h4 {
+      font-size: 28px; }
+    .footer-pag .sobre-nosotros p {
+      margin-bottom: 0px;
+      font-size: 20px;
       text-align: center; }
-      .complementario .compra-complementarios div img {
-        width: 100%; }
+    .footer-pag .red-social h4 {
+      font-size: 28px; }
+    .footer-pag .red-social div a img {
+      width: 45px;
+      height: 45px; } }
+
+@media screen and (max-width: 485px) {
+  .hero h1 {
+    font-size: 25px; }
+  .destacados h2 {
+    font-size: 20px; }
+  .destacados .expo {
+    width: 300px; }
+    .destacados .expo a h3 {
+      font-size: 17px; }
+  .destacados .whatsapp {
+    width: 300px; }
+    .destacados .whatsapp a img {
+      height: 161px; }
+    .destacados .whatsapp a h3 {
+      font-size: 17px; }
+  .producto h1 {
+    font-size: 35px; }
+  .nombre-producto img {
+    width: 340px; }
+  .nombre-producto div h2 {
+    font-size: 21px; }
+  .nombre-producto div p {
+    font-size: 15px; }
+  .nombre-producto div ul li {
+    font-size: 15px; }
+  .financiacion h1 {
+    font-size: 35px; }
+  .p-financiacion h2 {
+    font-size: 19px; }
+  .p-financiacion p {
+    font-size: 17px; }
+  .p-financiacion ul li {
+    font-size: 17px; }
+  .repuestos h1 {
+    font-size: 33px; }
+  .search-repuestos {
+    margin: 5px; }
+    .search-repuestos h2 {
+      font-size: 23px;
+      text-align: center; }
+    .search-repuestos div input {
+      width: 330px;
+      font-size: 16px; }
+    .search-repuestos div img {
+      display: none; }
+  .complementario h2 {
+    font-size: 22px;
+    text-align: center; }
+  .complementario p {
+    font-size: 17px; }
+  .complementario .compra-complementarios {
+    margin: 10px; }
+    .complementario .compra-complementarios div {
+      width: 345px;
+      height: 270px; }
       .complementario .compra-complementarios div h3 {
-        font-size: 20px;
-        margin-bottom: 20px;
-        margin-top: 5px; }
-      .complementario .compra-complementarios div a {
-        background-color: black;
-        text-decoration: none;
-        color: white;
-        padding: 8px;
-        font-size: 15px; }
+        font-size: 18px; }
+  .contacto h1 {
+    font-size: 35px; }
+  .formulario {
+    margin: 5px; }
+    .formulario h2 {
+      font-size: 19px;
+      width: 80%; }
+    .formulario form {
+      width: 345px; }
+      .formulario form .div-form .inputs-name {
+        height: 40px; }
+      .formulario form .div-form .inputs {
+        height: 40px; }
+  .footer-pag .sobre-nosotros h4 {
+    font-size: 25px; }
+  .footer-pag .sobre-nosotros p {
+    font-size: 18px;
+    padding: 10px; }
+  .footer-pag .red-social h4 {
+    font-size: 25px; } }
