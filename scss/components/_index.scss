@@ -26,10 +26,8 @@
     }
 
     div {
+        @include flex (flex, space-evenly, center);
         padding-bottom: 40px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
         flex-wrap: wrap;
     }
 

@@ -1,22 +1,16 @@
-// MAIN --
 .producto {
-    background-color: #237386bd;
-    width: 100%;
-    height: 130px;
+    @extend %bg ;
 
     h1 {
+        @include titulos ( 45px, 20px, whitesmoke);
         font-family: "Montserrat", sans-serif;
-        font-size: 45px;
-        padding: 20px;
-        color: whitesmoke;
     }
 }
 
 .nombre-producto {
+    @include flex (flex, space-evenly, center);
     height: 500px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    
 
     div {
         width: 40%;
