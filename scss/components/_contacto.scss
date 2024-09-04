@@ -17,7 +17,7 @@
         font-family: "Montserrat", sans-serif;
         width: 30%;
         margin: 10px;
-        font-size: 25px;
+        font-size: nth($font-size, $n: 2);
         color: black;
     }
 

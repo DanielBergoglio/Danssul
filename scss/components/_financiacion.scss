@@ -15,13 +15,13 @@
     }
 
     p {
-        font-size: 25px;
+        font-size: nth($font-size, $n: 2);
         margin-top: 5px
     }
 
     ul {
         li {
-            font-size: 20px;
+            font-size: nth($font-size, $n:3 );
             margin: 10px 0px 20px 0px;
         }
     }

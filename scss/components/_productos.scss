@@ -17,7 +17,7 @@
 
         h2 {
             text-align: center;
-            font-size: 30px;
+            font-size: nth($font-size, $n: 1);
         }
 
         p {
