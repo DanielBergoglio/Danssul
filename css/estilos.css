@@ -76,12 +76,12 @@ header {
 
 .hero {
   width: 100%;
-  height: calc(100vh - 104px);
-  background-image: url(https://authassets.cnhindustrial.com/nhag/lar/es-ar/PublishingImages/homepage/slider/2024/Expo%20Rural%202024%20NHAG_Herobanner.jpg);
+  height: calc(100vh - 125px);
+  background-image: url(https://plus.unsplash.com/premium_photo-1664301163726-78773dc77bfd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: whitesmoke;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: start; }
@@ -321,7 +321,7 @@ header {
     height: 250px; } }
 
 @media screen and (max-width: 912px) {
-  .hero h1 {
+  h1 {
     font-size: 35px; }
   .producto {
     height: 100px; }
