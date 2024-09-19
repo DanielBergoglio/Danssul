@@ -72,7 +72,10 @@ header {
   .footer-pag .red-social div {
     text-align: center; }
     .footer-pag .red-social div img {
-      margin-right: 15px; }
+      margin-right: 15px;
+      transition: 1s; }
+  .footer-pag .red-social img:hover {
+    transform: scale(1.2); }
 
 .hero {
   width: 100%;
